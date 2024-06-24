@@ -1,0 +1,34 @@
+@import 'global/_base';
+
+body{
+    background: var(--magnolia) !important;
+    max-height: 100vh;
+    
+}
+.footer-link{
+    text-decoration: none;
+    font-size: 14px;
+    border-color: var(--pastel-blue);
+    
+}
+.footer-link.back{
+    color: var(--step-color);
+}
+.footer-link.next{
+    color: #fff;
+}
+.next{   
+    background: var(--btn-color);
+    padding: 7px 19px;
+    border-radius: 8px;
+    font-size: var(--font-size);
+    border: 1px solid var(--btn-color);
+}
+.back{
+    font-size: var(--font-size);
+    font-weight: 500;
+    color: var(--step-color);
+}
+.next:hover{
+    opacity: 0.9;
+}
